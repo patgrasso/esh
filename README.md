@@ -57,4 +57,4 @@ See `Makefile` for more about each target.
 
 
 ## License
-Coming soon lol.
+MIT
