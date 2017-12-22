@@ -1,0 +1,18 @@
+Author    : $(whoami)
+Date      : $(date)
+Assignment: $(pwd | xargs basename)
+
+PATH: $PATH
+
+Let's do some math...
+
+  1 + 2 = $((1 + 2))
+  3 / 4 = $(python -c "print(3.0/4)")
+
+Test echo...
+
+  'my name' : $(echo "my name")
+  \$PATH     : $PATH
+  $(blablabla=3)
+  $(echo $blablabla)
+

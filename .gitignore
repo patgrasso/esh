@@ -1,0 +1,14 @@
+# object files
+*.o
+
+# temporary editor files
+\#*
+*.sw*
+
+# yacc & lex output
+*.tab.[hc]
+*.output
+*.yy.c
+
+# executable
+esh
